@@ -11,6 +11,7 @@ public class Restaurant {
     private Pricer pricer;
 
     public Restaurant(){
-
+        this.menu = new Menu();
+        this.
     }
 }
