@@ -1,10 +1,12 @@
 package delivery;
 
+import orderer.Order;
+
 public class Deliverer {
 
     private String name;
-    private int id;
-    private boolean occupied = false;
+    private String DelivererId;
+    private boolean occupied;
 
     /**
      * @param id
@@ -27,7 +29,7 @@ public class Deliverer {
     /**
      * @return id of the deliverer
      */
-    public int getId(){
+    public String getId(){
 
 
     }
@@ -46,6 +48,5 @@ public class Deliverer {
 
 
     }
-
 
 }

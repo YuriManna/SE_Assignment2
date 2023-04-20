@@ -1,9 +1,13 @@
 package orderer;
 
-public class WaiterOrderer {
+public class WaiterOrderer extends Order{
+    private int tableNumber;
 
-    public MenuItem[] getOrder(){
+    public WaiterOrderer(int tableNumber){
 
+    }
+    
+    public void getTableNumber() {
 
     }
 }

@@ -7,7 +7,7 @@ public class MenuItem {
     private String description;
     
 
-    public MenuItem(String name, double price, String description){
+    public MenuItem(String name, double price, String description, Ingredient[] ingredients, String type){
 
     }
 
@@ -36,6 +36,22 @@ public class MenuItem {
     }
 
     public String getDescription(){
+
+    }
+    
+    public List<Ingredient> getIngredients() {
+
+    }
+
+    public void setIngredients(List<Ingredient> ingredients) {
+
+    }
+
+    public String getType() {
+
+    }
+
+    public void setType(String type) {
 
     }
     
