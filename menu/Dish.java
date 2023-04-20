@@ -1,28 +1,30 @@
 package menu;
 
+import java.util.List;
+
 public class Dish extends MenuItem {
 
-    public Ingredient[] ingredients;
+    public List<Ingredient> ingredients;
+    public String type; // side dish, main dish, starter
    
-    public Dish(String name, double price, Ingredient[] ingredients, String type) {
+    //this makes a dish object and converts a string[] into and List<Ingredient> using getQuality()
+    public Dish(String name, double price, String description ,String[] ingredients, String type) {
 
-       super(name, price);
-
-       this.ingredients = ingredients;
-
-   
     }
 
-    public Ingredient[] getIngredients(){
+    public List<Ingredient> getIngredients(){
 
-        return ingredients;
     }
 
-    public void setIngredients(Ingredient[] ingredients){
+    public void setIngredients(List<Ingredient> ingredients){
 
-        this.ingredients = ingredients;
     }
 
-    
+    public String getType() {
 
+    }
+
+    public void setType(String type) {
+
+    }
 }
