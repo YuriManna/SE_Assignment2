@@ -1,20 +1,22 @@
 package orderer;
 
-public class WebForHomeOrderer extends Orderer{
+import delivery.Delivery;
 
+public class WebForHomeOrderer extends Order{
+
+    String name;
+    String address;
+    Delivery Delivery;
 
     /**
-     * @return the list with ordered <MenuItems>
+     * construcor gets name and address and creates a new delivery object
      */
-    /
-    public MenuItem[] order(){
+    public WaiterOrderer(String name, String address){
 
     }
-
     /**
      * gets the name of the orderer
      */
-    /
     public void getName(){
 
     }
@@ -24,14 +26,6 @@ public class WebForHomeOrderer extends Orderer{
      */
 
     public void getAddress(){
-
-    }
-
-    /**
-     * gets order from a third party delivery service
-     */
-    public void getOrder(){
-
 
     }
 

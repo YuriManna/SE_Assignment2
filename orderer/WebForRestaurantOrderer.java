@@ -1,7 +1,7 @@
 package orderer;
 
-public class WebForRestaurantOrderer extends Orderer{
-
+public class WebForRestaurantOrderer extends Order{
+    private int tableNumber;
     /**
      * @TODO: scan the QR code to access menu
      */
@@ -9,12 +9,7 @@ public class WebForRestaurantOrderer extends Orderer{
 
     }
 
-    /**
-    * @return list of ordered <MenuItems>
-    */
-    public MenuItem[] order(){
-
-    }
+    
 
 
 
