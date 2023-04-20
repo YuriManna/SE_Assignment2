@@ -2,17 +2,27 @@ package orderer;
 
 public class WebForHomeOrderer extends Orderer{
 
-    // returns a list with ordered items
+
+    /**
+     * @return the list with ordered <MenuItems>
+     */
+    /
     public MenuItem[] order(){
 
     }
 
-    // gets name of the orderer
+    /**
+     * gets the name of the orderer
+     */
+    /
     public void getName(){
 
     }
 
-    // gets addtress of the orderer
+    /**
+     * gets the address of the orderer
+     */
+
     public void getAddress(){
 
     }
