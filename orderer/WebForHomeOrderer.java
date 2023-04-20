@@ -17,7 +17,9 @@ public class WebForHomeOrderer extends Orderer{
 
     }
 
-    // gets order from a third party delivery service
+    /**
+     * gets order from a third party delivery service
+     */
     public void getOrder(){
 
 
