@@ -1,8 +1,15 @@
 package pricer;
 
+import orderer.Orderer;
+
+import java.util.List;
+
+import menu.MenuItem;
+
 public interface Pricer {
     
-    public double PricingStrategy(){
+    public List<MenuItem> getOrder(Orderer orderer);
 
-    }
+    public double PricingStrategy(List<MenuItem> order);
+
 }

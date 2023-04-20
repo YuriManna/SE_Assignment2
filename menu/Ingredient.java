@@ -3,7 +3,7 @@ package menu;
 public class Ingredient {
 
     String name;
-    String quality; // ex. poor, good, excellent etc
+    String quality; // ex. poor, good, excellent etc influences the price
 
     public Ingredient(String name, String quality ){
 

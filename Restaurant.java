@@ -12,6 +12,11 @@ public class Restaurant {
 
     public Restaurant(){
         this.menu = new Menu();
-        this.
+        String[] pastaPestoIngr = {"pasta","pesto","olive oil"};
+        menu.AddDishes("Pasta al pesto", 12, pastaPestoIngr , "Main Dish");
+
+        menu.AddDrinks("Coca Cola", 2.5, "fizzy drink");
+
+        menu.AddDesserts("Tiramisù", 5, "coffee flavour dessert");
     }
 }
