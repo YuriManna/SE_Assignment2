@@ -18,11 +18,11 @@ public class Ingredient {
 
     }
 
-    public void setName(String name){
+    public void setName(String name){}
 
-        this.name = name;
+    public String getQuality(){}
 
-    }
+    public void setQuality(String quality){}
 
     
     
