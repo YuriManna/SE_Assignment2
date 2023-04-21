@@ -6,27 +6,29 @@ public class WebForHomeOrderer extends Order{
 
     String name;
     String address;
-    Delivery Delivery;
+    Delivery delivery;
 
     /**
      * construcor gets name and address and creates a new delivery object
      */
-    public WaiterOrderer(String name, String address){
+    public deliveryObject(String name, String address){
 
     }
     /**
-     * gets the name of the orderer
+     * returns the name of the orderer
      */
-    public void getName(){
+    public String getName(){
 
     }
 
     /**
-     * gets the address of the orderer
+     * returns the address of the orderer
      */
 
-    public void getAddress(){
+    public String getAddress(){
 
     }
+
+
 
 }

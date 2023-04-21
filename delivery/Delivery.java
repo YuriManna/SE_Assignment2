@@ -13,15 +13,16 @@ public class Delivery {
     public Deliverer getAvailableDeliverer() {
         
     }
-    public addOrder(Order order){
+    public void addOrder(Order order){
 
     }
-    public double setDeliveryTime(double time){
+    public void setDeliveryTime(double time){
 
     }
     public double getDeliveryTime(){
         
     }
+
 
 
 

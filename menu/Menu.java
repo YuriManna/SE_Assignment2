@@ -4,9 +4,9 @@ import java.util.List;
 
 public class Menu {
 
-    public List <MenuItem> menù;
+    public List <MenuItem> menu;
     
-    public Menu(){
+    public Menu(List<MenuItem> menu){
 
     }
     public static void addDishes(String name, double price, String[] ingredients, String type){

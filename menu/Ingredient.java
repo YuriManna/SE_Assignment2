@@ -7,8 +7,6 @@ public class Ingredient {
 
     public Ingredient(String name, String quality ){
 
-        this.name = name;
-        this.quality = quality;
 
     }
 
