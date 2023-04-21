@@ -6,7 +6,7 @@ import pricer.*;
 public class Restaurant {
 
     private Menu menu;
-    private Orderer orderer;
+    private Order orderer;
     private Delivery delivery;
     private Pricer pricer;
 
