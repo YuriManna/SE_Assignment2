@@ -12,23 +12,22 @@ public abstract class Order {
     private List<MenuItem> currentOrder;
     private Pricer pricer;
 
-    public Order(Pricer pricer){
+    public Order(){
 
     }
     public void addOrder(List<MenuItem> order){
 
     }
-    
     /**
      * @return list of ordered <MenuItems>
      */
     public List<MenuItem> getOrder() {
 
     }
-    public getStatus(){
+    public String getStatus(){
 
     }
-    public getTimeStatus(){
+    public double getTimeStatus(){
 
     }
     public double getOrderPrice() {

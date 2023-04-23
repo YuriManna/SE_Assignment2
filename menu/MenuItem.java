@@ -1,13 +1,16 @@
 package menu;
 
+import java.util.List;
+
 public class MenuItem {
 
     private String name;
     private double price;
-    private String description;
+    private String type;
+    private List<Ingredient> ingredients;
     
 
-    public MenuItem(String name, double price, String description, Ingredient[] ingredients, String type){
+    public MenuItem(String name, double price, String type, List<Ingredient> ingredients){
 
     }
 
@@ -24,18 +27,6 @@ public class MenuItem {
     }
 
     public void setPrice(double price){
-
-    }
-
-    public String toString(){
-
-    }
-
-    public void setDescription(){
-
-    }
-
-    public String getDescription(){
 
     }
     

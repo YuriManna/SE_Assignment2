@@ -1,8 +1,11 @@
 package orderer;
 
+import menu.Menu;
+
 public class WebForRestaurantOrderer extends Order{
     
     private int tableNumber;
+    private Menu menu;
 
     public WebForHomeOrderer(int tableNumber){
 
@@ -16,7 +19,9 @@ public class WebForRestaurantOrderer extends Order{
     public void setTableNumber(){
 
     }
-
+    public void payment(){
+        
+    }
     
 
 

@@ -7,19 +7,22 @@ public class Ingredient {
 
     public Ingredient(String name, String quality ){
 
-        this.name = name;
-        this.quality = quality;
-
     }
 
     public String getName(){
     }
 
-    public void setName(String name){}
+    public void setName(String name){
 
-    public String getQuality(){}
+    }
 
-    public void setQuality(String quality){}
+    public String getQuality(){
+
+    }
+
+    public void setQuality(String quality){
+        
+    }
 
     
     

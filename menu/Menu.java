@@ -9,10 +9,15 @@ public class Menu {
     public Menu(){
 
     }
-    public static void addDishes(String name, double price, String[] ingredients, String type){
+    public static void addItem(MenuItem item){
     
     }
+    public static void deleteItem(MenuItem item){
+    
+    }
+    //returns the menu as a list
     public static List<MenuItem> getFullMenu(){
         
     }
+
 }
