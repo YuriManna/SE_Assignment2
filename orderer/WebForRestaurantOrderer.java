@@ -7,16 +7,16 @@ public class WebForRestaurantOrderer extends Order{
     private int tableNumber;
     private Menu menu;
 
-    public WebForHomeOrderer(int tableNumber){
+    public WebForRestaurantOrderer(int tableNumber){
 
     }
     /**
-     * @TODO: scan the QR code to access menu
+     * scans the QR code to access menu
      */
     public void menuScanner(){
 
     }
-    public void setTableNumber(){
+    public int getTableNumber(){
 
     }
     public void payment(){

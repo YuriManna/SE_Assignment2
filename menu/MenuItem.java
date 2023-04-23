@@ -3,7 +3,6 @@ package menu;
 import java.util.List;
 
 public class MenuItem {
-
     private String name;
     private double price;
     private String type;

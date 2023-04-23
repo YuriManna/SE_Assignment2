@@ -9,8 +9,10 @@ public class WaiterOrderer extends Order{
     public WaiterOrderer(int tableNumber){
 
     }
-    
-    public void getTableNumber() {
+    public int getTableNumber() {
 
     }
+
+
+
 }
