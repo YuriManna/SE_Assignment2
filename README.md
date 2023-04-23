@@ -1,4 +1,4 @@
 # SE_Assignment2
 Assignment 2 of Software Engineering course
-
-Yuri Manna, Helena Posyniak
+Group 96
+Helena Posyniak(6303009), Yuri Manna(6316134)
